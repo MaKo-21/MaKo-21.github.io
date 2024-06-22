@@ -1038,7 +1038,11 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 980px) {
-
+			#three .row > div{
+				text-align: center;
+				border-color: #9bf1ff;
+				border-right: none;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1279,7 +1283,6 @@ input, select, textarea {
 						.row.gtr-200.gtr-uniform > * {
 							padding-top: 3em;
 						}
-
 		}
 
 		@media screen and (max-width: 736px) {
@@ -3361,10 +3364,6 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 480px) {
-
-			#header .logo span {
-				display: none;
-			}
 
 			#header nav a[href="#menu"] {
 				overflow: hidden;
